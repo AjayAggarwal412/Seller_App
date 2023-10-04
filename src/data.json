@@ -1,0 +1,73 @@
+{
+    "hotels": [
+      {
+        "id": 1,
+        "name": "Luxury Beach Resort - 456 Main Street, Paris, NY 10001 ",
+        "image": "https://23c133e0c1637be1e07d-be55c16c6d91e6ac40d594f7e280b390.ssl.cf1.rackcdn.com/u/gpch/Park-Hotel-Group---Explore---Grand-Park-City-Hall-Facade.jpg",
+        "location": "Paris",
+        "num_rooms": 5,
+        "num_beds": 2,
+        "num_bathrooms": 1,
+        "area_sqft": 732,
+        "price_per_month": 5000
+      },
+      {
+        "id": 2,
+        "name": "Downtown Boutique Hotel - 456 Main Street, New York, NY 10001",
+        "image": "https://media.istockphoto.com/id/119926339/photo/resort-swimming-pool.jpg?s=612x612&w=0&k=20&c=9QtwJC2boq3GFHaeDsKytF4-CavYKQuy1jBD2IRfYKc=",
+        "location": "New York",
+         
+        "num_rooms": 3,
+        "num_beds": 6,
+        "num_bathrooms": 1,
+        "area_sqft": 732,
+        "price_per_month": 3500
+      },
+      {
+        "id": 3,
+        "name": "Cozy Mountain Retreat - - 456 Main Street, Mumbai, NY 10001",
+        "image": "https://assets.cntraveller.in/photos/63b80c6d79d81704e445df00/master/pass/Westin%20Himalayas%20facade.jpg",
+        "location": "Mumbai",
+        "num_rooms": 2,
+        "num_beds": 4,
+        "num_bathrooms": 1,
+        "area_sqft": 732,
+        "price_per_month": 4500
+      },
+      {
+
+        "id": 4,
+        "name": "Luxury Beach Resort - 456 Main Street, London, NY 10001",
+        "image": "https://thehoughtonhotel.com/wp-content/uploads/2023/02/Houghton-Hotel-3-20-scaled.jpg",
+        "location": "London",
+        "num_rooms": 5,
+        "num_beds": 10,
+        "num_bathrooms": 1,
+        "area_sqft": 732,
+        "price_per_month": 5000
+      },
+      {
+        "id": 5,
+        "name": "Downtown Boutique Hotel - 456 Main Street, New York, NY 10001",
+        "image": "https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2022/04/12/1329/MUMGH-P0765-Inner-Courtyard-Hotel-Exterior-Evening.jpg/MUMGH-P0765-Inner-Courtyard-Hotel-Exterior-Evening.16x9.jpg",
+        "location": "New York",
+        "num_rooms": 3,
+        "num_beds": 4,
+        "num_bathrooms": 1,
+        "area_sqft": 732,
+        "price_per_month": 3500
+      },
+      {
+        "id": 6,
+        "name": "Cozy Mountain Retreat - 456 Main Street, New York, NY 10001",
+        "image": "https://images.moneycontrol.com/static-mcnews/2019/09/Samhi_Hotels-770x433.jpg?impolicy=website&width=770&height=431",
+        "location": "New York",
+        "num_rooms": 2,
+        "num_beds": 5,
+        "num_bathrooms": 1,
+        "area_sqft": 732,
+        "price_per_month": 4500
+      }
+    ]
+  }
+  
