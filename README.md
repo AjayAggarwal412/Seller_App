@@ -1,70 +1,74 @@
-# Getting Started with Create React App
+# Car Search App (React Assignment 1)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a simple React-based car rental listing app. It allows users to browse and search for cars available for rent. The project consists of three main components:
 
-## Available Scripts
+1. **App Component (`App.js`):** This is the main component that sets up the routing for the application using React Router. It defines the routes for the car listing page and sets up the routing for pagination.
 
-In the project directory, you can run:
+2. **CarList Component (`CarList.js`):** This component displays a list of cars available for rent. It includes pagination and a search bar for filtering cars by name. The car data is fetched from a JSON file (`data.json`).
 
-### `npm start`
+3. **CarCard Component (`CarCard.js`):** This component represents a single car listing card. It displays information about each car, including its name, image, year of manufacture, seating capacity, fuel type, mileage, and more.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+4. **CarSearchBar Component (`CarSearchBar.js`):** This component provides a search bar for users to filter cars by name.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Getting Started
 
-### `npm test`
+To run this project locally, follow these steps:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone the repository to your local machine:
 
-### `npm run build`
+   ```
+   git clone <repository-url>
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. Navigate to the project directory:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   ```
+   cd <project-directory>
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. Install the project dependencies:
 
-### `npm run eject`
+   ```
+   npm install
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+4. Start the development server:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   ```
+   npm start
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+5. Open your web browser and go to `http://localhost:3000` to view the application.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Project Structure
 
-## Learn More
+The project follows a basic structure with components and data:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- `src/`
+  - `App.js`: The main application component with routing setup.
+  - `CarList.js`: Component for displaying the list of cars, including pagination.
+  - `CarCard.js`: Component for rendering individual car listing cards.
+  - `CarSearchBar.js`: Component for searching cars by name.
+  - `data.json`: JSON file containing the car data.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Features
 
-### Code Splitting
+- Browse a list of available cars for rent.
+- Use the search bar to filter cars by name.
+- Navigate through paginated car listings.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Technologies Used
 
-### Analyzing the Bundle Size
+- React.js
+- React Router for routing
+- Bootstrap for styling
+- React Icons for icons
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+## Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Ajay Aggarwal
 
-### Advanced Configuration
+## Acknowledgments
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Special thanks to the creators of React, Bootstrap, and React Icons for their amazing tools and libraries that made this project possible.
