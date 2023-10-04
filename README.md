@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+# Hotel Listing App (React Assignment 2)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a simple hotel listing application built using React.
 
-## Available Scripts
+## Overview
 
-In the project directory, you can run:
+The Hotel Listing App allows users to browse and view details of hotels in various cities. It provides information about the name, location, number of rooms, beds, bathrooms, area, and price per month for each hotel. Users can filter hotels by city by clicking on the city tab. It will filter the hotel list based on the city matched. Also, When "Show more" button is clicked, it will display 3 more properties. On the click of "View All" button it will display all the hotels available. By clicking on the hotel card, it will navigate the user to the detailed page of that particular hotel.
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- View a list of hotels with basic information.
+- Filter hotels by city (New York, Mumbai, London, Paris).
+- Click on a hotel to view more details.
+- Load more hotels to view.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone the repository:
 
-### `npm run build`
+   ```bash
+   git clone https://github.com/your-username/hotel-listing-app.git
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. Install dependencies:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   ```bash
+   cd hotel-listing-app
+   npm install
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. Start the development server:
 
-### `npm run eject`
+   ```bash
+   npm start
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+4. Open the app in your browser at [http://localhost:3000](http://localhost:3000).
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Usage
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Browse the list of hotels.
+- Filter hotels by clicking on city buttons.
+- Click on a hotel card to view more details.
+- Click "View All" to reset the filter and view all hotels.
+- Click "Show more" to load more hotels.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Technologies Used
 
-## Learn More
+- React
+- React Router
+- Bootstrap
+- Icons from React Icons
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Data
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+The hotel data is provided in JSON format and can be found in the `data.json` file.
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Author
 
-### Analyzing the Bundle Size
+- Ajay Aggarwal
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Acknowledgments
+Special thanks to the creators of React, Bootstrap, and React Icons for their amazing tools and libraries that made this project possible.
